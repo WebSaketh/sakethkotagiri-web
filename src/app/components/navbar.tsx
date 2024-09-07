@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className="fixed w-full">
+    <div className="fixed w-full justify-center">
       <nav className="flex row justify-between bg-black text-white p-2 font-montserrat tracking-widest text-lg">
         <div
           className="p-2 m-2 mx-6 whitespace-nowrap"
