@@ -94,6 +94,9 @@ export default function Resume() {
           </div>
         </div>
       </div> */}
+      <div className="flex grow items-center justify-center">
+        <h1 className="text-lg font-bold">UNDER CONSTRUCTION...</h1>
+      </div>
     </div>
   );
 }
