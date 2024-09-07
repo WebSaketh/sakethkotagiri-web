@@ -25,12 +25,24 @@ export default function Splashbox() {
             Feel free to contact me or just explore my portfolio!
           </h1>
           <div className="flex flex-row mt-16">
-            <div className="flex bg-gradient-to-r from-blue-600 to-sky-400 max-w-xs py-2 px-4 mr-4 rounded-lg items-center ">
-              <img className="w-24 h-auto" src="/content/linkedin.svg"></img>
-            </div>
-            <div className="flex bg-gradient-to-r from-violet-800 to-indigo-500 max-w-xs  py-2 px-4 rounded-lg items-center">
-              <img className="w-24 h-auto" src="/content/github.png"></img>
-            </div>
+            <a
+              href="https://www.linkedin.com/in/saketh-kotagiri"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex bg-gradient-to-r from-blue-600 to-sky-400 max-w-xs py-4 px-4 mr-4 rounded-lg items-center ">
+                <img className="w-24 h-auto" src="/content/linkedin.svg"></img>
+              </div>
+            </a>
+            <a
+              href="https://github.com/websaketh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex bg-gradient-to-r from-violet-800 to-indigo-500 max-w-xs py-2 px-4 rounded-lg items-center">
+                <img className="w-24 h-auto" src="/content/github.png"></img>
+              </div>
+            </a>
           </div>
         </div>
         <div className="h-full ml-24 py-24 flex grow justify-center align-middle overflow-visible items-center">

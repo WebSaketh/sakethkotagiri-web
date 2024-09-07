@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar";
 import Splashbox from "./components/splashbox";
 import About from "./components/about";
+import Resume from "./components/resume";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
         </section>
         <section id="about" className="snap-center">
           <About></About>
+        </section>
+        <section id="resume" className="snap-center">
+          <Resume></Resume>
         </section>
       </div>
     </main>
